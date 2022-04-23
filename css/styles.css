@@ -164,11 +164,6 @@ img {
   align-items: center;
 }
 
-.header-link:hover .header-icon,
-.header-link:focus .header-icon {
-  fill: var(--accent-color);
-}
-
 /* ------------HERO-------------------------------------- */
 .hero {
   background-color: #2f303a;
