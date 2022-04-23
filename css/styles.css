@@ -234,9 +234,11 @@ img {
 }
 
 .benefits-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--bgc-secondary);
   height: 120px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 }
 
@@ -439,11 +441,13 @@ img {
 
 .contact {
   display: flex;
+  align-items: baseline;
 }
 
 .social-network > .text {
   text-transform: uppercase;
-  font-size: 14px;
+  /* font-weight: 700; */
+  
   line-height: 1.14;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
@@ -522,12 +526,12 @@ img {
   margin-top: 30px;
 }
 
-.portfolio-link{
+.portfolio-link {
   display: block;
 }
 
 .portfolio-link:hover {
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
